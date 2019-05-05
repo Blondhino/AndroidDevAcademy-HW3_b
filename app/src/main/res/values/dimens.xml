@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="largeText">20sp</dimen>
+    <dimen name="smallMargin" type="dimen" format="float">5dp</dimen>
+    <dimen name="marginBig">50dp</dimen>
+    <dimen name="paddingMedium">20dp</dimen>
+    <dimen name="extraLargeText">30sp</dimen>
+    <dimen name="mediumText">15sp</dimen>
+    <dimen name="buttonWidth">100dp</dimen>
+    <dimen name="buttonHeight">55dp</dimen>
+    <dimen name="mediumElevation">20dp</dimen>
+    <dimen name="mediumPadding">5dp</dimen>
+</resources>

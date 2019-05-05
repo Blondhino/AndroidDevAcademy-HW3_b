@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.blondi.bmicalculator.activities.WelcomeScreen">
+
+<RelativeLayout
+    android:id="@+id/rl1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    >
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/bmi"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/tvWelcomeMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcomeMsg"
+        android:textSize="@dimen/largeText"
+        android:layout_marginTop="@dimen/smallMargin"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@id/ivLogo"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
+
+
+<Button
+    android:id="@+id/btnStart"
+    android:layout_width="@dimen/buttonWidth"
+    android:layout_height="@dimen/buttonHeight"
+    android:fontFamily="sans-serif"
+    android:text="@string/btnWelcomeScreen"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="@dimen/marginBig"
+    android:background="@drawable/custom_button"
+    />
+
+
+</RelativeLayout>

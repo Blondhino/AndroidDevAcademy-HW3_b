@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="welcomeMsg">Welcome To BMI Calculator</string>
+    <string name="btnWelcomeScreen">Start</string>
+    <string name="enter_your_weight_kg">Enter your weight [kg]</string>
+    <string name="weight">Weight :</string>
+    <string name="height">Height :</string>
+    <string name="calculate">Calculate</string>
+    <string name="enter_your_height_m">Enter your height [m]</string>
+    <string name="underweight">Your BMI is too low, you should eat high calorie foods</string>
+    <string name="normal">Your BMI is normal, your diet is balanced and there is no cause for concern</string>
+    <string name="obese">Your BMI is slightly elevated, you should pay attention to your diet</string>
+    <string name="extremely_obese">Your BMI is too high, you should consult with your doctor or nutritionist</string>
+    <string name="error1">Empty fields</string>
+    <string name="error2">unsupported values</string>
+    <string name="underWeightTitle">Underweight</string>
+    <string name="normalTitle">Normal</string>
+    <string name="obeseTitle">Obese</string>
+    <string name="extremelyObeseTitle">Extremely Obese</string>
+</resources>

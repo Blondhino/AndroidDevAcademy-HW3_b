@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/mediumPadding"
+    tools:context="com.blondi.bmicalculator.activities.ResultActivity" >
+
+
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/cardView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/mediumElevation"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_marginTop="@dimen/smallMargin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:text="Your BMI: "
+                />
+
+
+            <TextView
+                android:id="@+id/tvResultBMI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv1"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-light"
+                android:text="23.8333"
+                android:textColor="@color/colorBlack"
+                android:textSize="45sp" />
+        </RelativeLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/cardView1"
+    android:weightSum="100"
+    android:layout_marginTop="@dimen/smallMargin"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        android:elevation="@dimen/mediumElevation"
+        >
+        <ImageView
+            android:id="@+id/ivResult"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/obese"
+
+            />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvMessageTitle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:textAlignment="center"
+        android:textSize="@dimen/largeText"
+
+        />
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:textAlignment="center"
+        android:textSize="@dimen/largeText"
+        android:fontFamily="sans-serif-light"
+        />
+
+</LinearLayout>
+
+
+</RelativeLayout>
