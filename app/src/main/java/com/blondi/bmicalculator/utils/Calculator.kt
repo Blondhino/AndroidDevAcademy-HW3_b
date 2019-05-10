@@ -10,6 +10,8 @@ class Calculator {
      fun GetResult(weight: Float, height : Float):Float{
 
          val doubleHeight = height*2
+         //val doubleHeight = height*height  //<--- koristiti ovu funkciju ako je u PDF-u za zadacu greska
+
         return weight/doubleHeight
 
     }
